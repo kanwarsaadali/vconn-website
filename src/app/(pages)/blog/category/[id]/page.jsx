@@ -25,7 +25,7 @@ async function BlogCategory( { params } ) {
   return (
     <>
       
-      <PageBanner pageTitle={"Category: "+categoryData.title} breadTitle={categoryData.title} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Category: "+categoryData.title} breadTitle={categoryData.title} bgImage={"/img/photo/1.jpg"} />
       
       {/* blog */}
       <section>

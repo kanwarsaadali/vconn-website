@@ -26,7 +26,7 @@ async function BlogTag( { params } ) {
   return (
     <>
       
-      <PageBanner pageTitle={"Tag: "+tagData.title} breadTitle={tagData.title} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Tag: "+tagData.title} breadTitle={tagData.title} bgImage={"/img/photo/1.jpg"} />
       
       {/* blog */}
       <section>

@@ -23,7 +23,7 @@ async function Search() {
 
   return (
     <>
-      <PageBanner pageTitle={"Search: %s"} breadTitle={"Search"} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Search: %s"} breadTitle={"Search"} bgImage={"/img/photo/1.jpg"} />
 
       {/* blog */}
       <section>

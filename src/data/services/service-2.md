@@ -1,94 +1,91 @@
 ---
 #preview details
-title: "Design & Planning"
-icon: "/img/icons/5.svg"
-short: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua."
+title: "Hosting Services"
+icon: "/img/icons/24.png"
+short: "Robust and reliable hosting solutions tailored to meet your business needs."
 
 #full details
 description:
   - layout: 1
     title: Description
     content:
-      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden - Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+      <p>At VConn, we specialize in delivering a comprehensive range of hosting services designed to empower businesses of all sizes. Our solutions include cloud hosting, dedicated servers, and managed services, all crafted to ensure optimal performance, security, and reliability. With cutting-edge technology and state-of-the-art infrastructure, we provide hosting solutions that enhance your operational efficiency and scalability.</p>
+      <p>Our dedicated team collaborates closely with you to understand your unique requirements and deliver customized hosting solutions that align with your business objectives. Expect a seamless hosting experience with VConn, backed by exceptional support and innovative technologies.</p>
     divider: true
 
   - layout: 2
     title: Benefits
     content:
-      <p>Our architectural work improves people's lives. We work closely with clients to create functional solutions that creatively respond to the needs of individuals and organizations. From corporate facility innovation to commercial developments, we create beautiful, balanced designs fueled by big ideas.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Choosing VConn for your hosting services means gaining access to a range of benefits designed to optimize your business operations. Our hosting solutions not only address your immediate needs but also provide a robust foundation for future growth.</p>
+      <p>Key benefits include:</p>
     list:
-      - 3D Modeling
-      - Programs to Map Territory
-      - Robotics and AI Technology
-      - Material Simulation
+      - High Availability and Uptime
+      - Scalable Resources
+      - Enhanced Security Protocols
+      - 24/7 Technical Support
+      - Customizable Solutions
     divider: false
 
 sidebar:
   title: Info Areas
   items:
     - layout: list
-      title: Master Planning
+      title: Hosting Solutions
       content:
-        - Workplace Consulting
-        - 3D Modeling Planning
-        - Architecture
+        - Cloud Hosting
+        - VPS Hosting
+        - Dedicated Servers
 
     - layout: list
-      title: Sustainability & Wellness
+      title: Security & Compliance
       content:
-        - Recreational Parks
-        - Park and Public Squares
-        - Parkland
+        - Data Encryption
+        - Regular Security Audits
+        - Compliance with Industry Standards
 
     - layout: values
-      title: Benefits
+      title: Our Achievements
       content:
         - value: 10
           afterValue: +
           label: Years <br>Experience
         
-        - value: 99
+        - value: 100
           afterValue: +
-          label: Billion <br>Invested
+          label: Clients <br>Served
 
-        - value: 10
+        - value: 99.9
           afterValue: +
-          label: Years <br>Experience
-        
-        - value: 99
-          afterValue: +
-          label: Billion <br>Invested
+          label: Uptime <br>Guarantee
 
     - layout: list
-      title: Project agent
+      title: Project Agent
       content:
         - Joe French
-        - joe.french@ruizarch.com
+        - joe.french@vconn.com
         - (570) 253 - 2853
 
 gallery:
   - image: /img/covers/1.jpg
-    alt: image
+    alt: Cloud Hosting Solutions
 
   - image: /img/covers/2.jpg
-    alt: image
+    alt: Dedicated Server Infrastructure
 
   - image: /img/covers/4.jpg
-    alt: image
+    alt: Reliable Hosting Services
 
 description2:
   - layout: 1
-    title: Perfect Planning
+    title: Perfect Hosting
     content:
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+      <p>At VConn, we understand that effective hosting is critical for your business. Our tailored hosting solutions are meticulously designed to ensure performance and reliability, utilizing advanced technology to create infrastructures that adapt to your evolving needs.</p>
     divider: false
 
   - layout: 1
-    title: Approach
+    title: Our Approach
     content:
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+      <p>Our approach to hosting services is centered around understanding your business objectives. We collaborate closely with you to design hosting solutions perfectly aligned with your operational goals, ensuring optimal performance and comprehensive support throughout your journey with us.</p>
     divider: true
 
 sidebar2:
@@ -96,19 +93,17 @@ sidebar2:
     - layout: list
       title: Capabilities
       content:
-        - Non dictum quam risus pharetra esta.
-        - Risus pharetra, ullamcorper.
-        - Hac nibh fermentum, condimentum cursus.
-        - Massa volutpat purus sit elementum.
-        - Elit curabitur risus bibendum.
+        - Tailored Hosting Solutions
+        - 24/7 Customer Support
+        - Comprehensive Managed Services
 
     - layout: list
       title: Work Process
       content:
-        - "Listen: Dictum quam risus pharetra esta."
-        - "Strategies: Ullamcorper tincidunt."
-        - "Project Work: Platea condimentum cursus."
-        - "Launch: Massa volutpat elementum."
+        - "Consult: Understanding your hosting needs."
+        - "Design: Crafting the ideal hosting solution."
+        - "Implement: Deploying your hosting infrastructure."
+        - "Support: Ongoing management and optimization."
 
 faq:
   subtitle: Have Some Questions?
@@ -117,15 +112,15 @@ faq:
     label: More Questions?
     link: /contact
   items:
-    - label: General information
-      content: <p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    - label: General Information
+      content: <p>VConn is dedicated to providing all the information you need regarding our hosting services to help you make informed decisions for your business.</p>
 
-    - label: Management of personal data
-      content: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    - label: Data Management Practices
+      content: <p>We maintain strict data management and security protocols to ensure that your information is protected and complies with all relevant regulations.</p>
 
-    - label: Does Ruizarch accept article submissions?
-      content: <p>Netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    - label: Can VConn assist with custom hosting solutions?
+      content: <p>Yes! We specialize in creating tailored hosting solutions that cater to your specific business requirements, ensuring optimal performance and scalability.</p>
 
-    - label: What is the Ruizarch insights app?
-      content: <p>Malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    - label: What support does VConn offer after implementation?
+      content: <p>We provide ongoing support and maintenance services to ensure that your hosting infrastructure operates efficiently, along with regular updates and optimizations as needed.</p>
 ---

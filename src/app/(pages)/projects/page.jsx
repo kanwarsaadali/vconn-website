@@ -21,7 +21,7 @@ async function Projects() {
 
   return (
     <>
-      <PageBanner pageTitle={"Projects"} breadTitle={"Projects"} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Projects"} breadTitle={"Projects"} bgImage={"/img/photo/1.jpg"} />
 
       {/* portfolio */}
       <section>

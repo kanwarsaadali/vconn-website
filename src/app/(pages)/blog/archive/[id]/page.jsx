@@ -26,7 +26,7 @@ async function BlogArchive( { params } ) {
   return (
     <>
       
-      <PageBanner pageTitle={"Archive: "+archiveData.month+', '+archiveData.year} breadTitle={archiveData.month+', '+archiveData.year} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Archive: "+archiveData.month+', '+archiveData.year} breadTitle={archiveData.month+', '+archiveData.year} bgImage={"/img/photo/1.jpg"} />
       
       {/* blog */}
       <section>

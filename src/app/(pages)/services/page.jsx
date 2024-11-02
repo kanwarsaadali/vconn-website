@@ -24,7 +24,7 @@ async function Services() {
   
   return (
     <>
-      <PageBanner pageTitle={"Our Services"} breadTitle={"Services"} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Our Services"} breadTitle={"Services"} bgImage={"/img/photo/1.jpg"} />
          
       {/* services */}
       <section>
@@ -35,16 +35,16 @@ async function Services() {
                   <div className="col-lg-8">
 
                       <div className="mil-center mil-mb-120">
-                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">Modern concept</span>
-                          <p className="mil-text-lg mil-up">Ruizarch we are a leader in architecture and design with a user-centric approach and deep technical expertise. We are consistently ranked as one of the top 10 architecture firms in the world, and our core disciplines are supported by a wide range of complementary services, all of which have a singular goal: to build environments where our clients thrive.</p>
+                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">Core Solutions</span>
+                          <p className="mil-text-lg mil-up"> Our data center stands as a hub of technological excellence, providing robust, secure, and scalable solutions for businesses of all sizes. We specialize in a range of services designed to meet the unique needs of each client. From state-of-the-art colocation facilities and powerful cloud solutions to cutting-edge cybersecurity and disaster recovery, our offerings are crafted with precision and reliability. We are committed to delivering an optimal environment where your data, operations, and infrastructure can thrive.</p>
                       </div>
 
                   </div>
               </div>
 
               <div className="mil-center mil-mb-90">
-                  <span className="mil-suptitle mil-upper mil-up mil-mb-30">On This We Work</span>
-                  <h2 className="mil-upper mil-up">Exclusive Services</h2>
+                  <span className="mil-suptitle mil-upper mil-up mil-mb-30">Areas of Excellence</span>
+                  <h2 className="mil-upper mil-up">Premier Services</h2>
               </div>
 
               <div className="row">

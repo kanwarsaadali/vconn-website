@@ -26,7 +26,7 @@ async function ServiceDetail( { params } ) {
 
   return (
     <>
-      <PageBanner pageTitle={postData.title} breadTitle={postData.title} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={postData.title} breadTitle={postData.title} bgImage={"/img/photo/1.jpg"} />
 
       {/* service */}
       <section>

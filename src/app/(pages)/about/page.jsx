@@ -25,7 +25,7 @@ export const metadata = {
 const About = () => {
   return (
     <>
-      <PageBanner pageTitle={"About us"} breadTitle={"About"} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"About us"} breadTitle={"About"} bgImage={"/img/photo/1.jpg"} />
       <ServicesTwoSection />
       <ContactInfoSection />
       <CompanyTwoSlider />

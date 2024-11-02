@@ -26,7 +26,7 @@ async function BlogAuthor( { params } ) {
   return (
     <>
       
-      <PageBanner pageTitle={"Author: "+authorData.title} breadTitle={authorData.title} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Author: "+authorData.title} breadTitle={authorData.title} bgImage={"/img/photo/1.jpg"} />
       
       {/* blog */}
       <section>

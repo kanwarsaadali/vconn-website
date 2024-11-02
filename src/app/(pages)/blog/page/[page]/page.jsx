@@ -30,7 +30,7 @@ async function BlogPage( { params } ) {
 
   return (
     <>
-      <PageBanner pageTitle={"Insights"} breadTitle={"Blog"} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Insights"} breadTitle={"Blog"} bgImage={"/img/photo/1.jpg"} />
 
       {/* blog */}
       <section>

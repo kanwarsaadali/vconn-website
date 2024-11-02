@@ -17,7 +17,7 @@ export const metadata = {
 const Contact = () => {
   return (
     <>
-        <PageBanner pageTitle={"We’d love to talk"} breadTitle={"Contact"} bgImage={"/img/photo/12.jpg"} />
+        <PageBanner pageTitle={"We’d love to talk"} breadTitle={"Contact"} bgImage={"/img/photo/1.jpg"} />
 
         {/* about */}
         <section>

@@ -22,7 +22,7 @@ async function Team() {
   
   return (
     <>
-      <PageBanner pageTitle={"Leadership"} breadTitle={"Team"} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Leadership"} breadTitle={"Team"} bgImage={"/img/photo/1.jpg"} />
          
       {/* team */}
       <section>
