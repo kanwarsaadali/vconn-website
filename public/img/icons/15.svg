@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Top Disk -->
+  <ellipse cx="12" cy="5" rx="6" ry="3"></ellipse>
+  
+  <!-- Middle Disk -->
+  <path d="M6 5v4a6 3 0 0 0 12 0V5" />
+  <ellipse cx="12" cy="9" rx="6" ry="3"></ellipse>
+  
+  <!-- Bottom Disk -->
+  <path d="M6 9v4a6 3 0 0 0 12 0V9" />
+  <ellipse cx="12" cy="13" rx="6" ry="3"></ellipse>
+
+  <!-- Base -->
+  <path d="M6 13v2a6 3 0 0 0 12 0v-2" />
+</svg>
