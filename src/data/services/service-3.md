@@ -1,94 +1,91 @@
 ---
 #preview details
-title: "Home Concept"
-icon: "/img/icons/4.svg"
-short: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua."
+title: "Secure Support Solution"
+icon: "/img/icons/23.png"
+short: "Comprehensive support solutions ensuring your data's security and integrity."
 
 #full details
 description:
   - layout: 1
     title: Description
     content:
-      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden - Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+      <p>At VConn, our Secure Support Solution is designed to provide businesses with the peace of mind that comes from knowing their data is safe and their operations are supported around the clock. Our expert team is dedicated to offering high-quality support tailored to meet the unique needs of each client, ensuring your systems are secure and functioning optimally at all times.</p>
+      <p>Utilizing advanced security measures and proactive monitoring, we ensure that your data is protected from threats and vulnerabilities. With VConn, you can focus on your core business while we handle the security and support aspects of your infrastructure.</p>
     divider: true
 
   - layout: 2
     title: Benefits
     content:
-      <p>Our architectural work improves people's lives. We work closely with clients to create functional solutions that creatively respond to the needs of individuals and organizations. From corporate facility innovation to commercial developments, we create beautiful, balanced designs fueled by big ideas.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Our Secure Support Solution enhances your data security and improves overall operational efficiency. We provide customized solutions that fit your specific needs, creating a secure environment where your organization can thrive.</p>
+      <p>Key benefits include:</p>
     list:
-      - 3D Modeling
-      - Programs to Map Territory
-      - Robotics and AI Technology
-      - Material Simulation
+      - 24/7 Monitoring and Support
+      - Advanced Threat Detection
+      - Regular Security Audits
+      - Comprehensive Incident Response
+      - Customized Support Plans
     divider: false
 
 sidebar:
   title: Info Areas
   items:
     - layout: list
-      title: Master Planning
+      title: Security Features
       content:
-        - Workplace Consulting
-        - 3D Modeling Planning
-        - Architecture
+        - Data Encryption
+        - Firewall Protection
+        - Vulnerability Scanning
 
     - layout: list
-      title: Sustainability & Wellness
+      title: Support Services
       content:
-        - Recreational Parks
-        - Park and Public Squares
-        - Parkland
+        - Technical Assistance
+        - System Maintenance
+        - Backup and Recovery Solutions
 
     - layout: values
-      title: Benefits
+      title: Our Commitment
       content:
-        - value: 10
-          afterValue: +
-          label: Years <br>Experience
+        - value: 99.9
+          afterValue: "%"
+          label: Uptime <br>Guarantee
         
-        - value: 99
-          afterValue: +
-          label: Billion <br>Invested
+        - value: 24
+          afterValue: "/7"
+          label: Support <br>Availability
 
-        - value: 10
-          afterValue: +
-          label: Years <br>Experience
-        
-        - value: 99
-          afterValue: +
-          label: Billion <br>Invested
+        - value: 100
+          afterValue: "%"
+          label: Data <br>Protection
 
     - layout: list
-      title: Project agent
+      title: Project Agent
       content:
         - Joe French
-        - joe.french@ruizarch.com
+        - joe.french@vconn.com
         - (570) 253 - 2853
 
 gallery:
   - image: /img/covers/1.jpg
-    alt: image
+    alt: Secure Support Overview
 
   - image: /img/covers/2.jpg
-    alt: image
+    alt: Data Security Measures
 
   - image: /img/covers/4.jpg
-    alt: image
+    alt: Support Team in Action
 
 description2:
   - layout: 1
-    title: Perfect Planning
+    title: Comprehensive Support
     content:
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+      <p>Our Secure Support Solution is designed to provide a full spectrum of support services that enhance the security and efficiency of your operations. With a dedicated support team available 24/7, we ensure your business continuity and data integrity at all times.</p>
     divider: false
 
   - layout: 1
-    title: Approach
+    title: Our Approach
     content:
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+      <p>At VConn, we take a proactive approach to support and security. We begin by assessing your current systems and identifying potential vulnerabilities. Our team works collaboratively with you to design a secure support framework that aligns with your business objectives, ensuring a robust defense against any threats.</p>
     divider: true
 
 sidebar2:
@@ -96,19 +93,17 @@ sidebar2:
     - layout: list
       title: Capabilities
       content:
-        - Non dictum quam risus pharetra esta.
-        - Risus pharetra, ullamcorper.
-        - Hac nibh fermentum, condimentum cursus.
-        - Massa volutpat purus sit elementum.
-        - Elit curabitur risus bibendum.
+        - Proactive Threat Management
+        - Custom Security Solutions
+        - Robust Backup Systems
 
     - layout: list
       title: Work Process
       content:
-        - "Listen: Dictum quam risus pharetra esta."
-        - "Strategies: Ullamcorper tincidunt."
-        - "Project Work: Platea condimentum cursus."
-        - "Launch: Massa volutpat elementum."
+        - "Assess: Evaluating your security needs."
+        - "Plan: Developing tailored security strategies."
+        - "Implement: Deploying comprehensive security measures."
+        - "Support: Ongoing management and support."
 
 faq:
   subtitle: Have Some Questions?
@@ -117,15 +112,15 @@ faq:
     label: More Questions?
     link: /contact
   items:
-    - label: General information
-      content: <p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    - label: General Information
+      content: <p>Our Secure Support Solution offers the highest level of protection and support to ensure your business operations run smoothly.</p>
 
-    - label: Management of personal data
-      content: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    - label: Data Management Practices
+      content: <p>We adhere to strict data management protocols to safeguard your information, ensuring compliance with industry standards.</p>
 
-    - label: Does Ruizarch accept article submissions?
-      content: <p>Netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    - label: How can I customize my support plan?
+      content: <p>We work closely with you to create a customized support plan that meets your specific requirements, offering flexibility and scalability.</p>
 
-    - label: What is the Ruizarch insights app?
-      content: <p>Malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    - label: What should I do in case of a security incident?
+      content: <p>Our incident response team is available 24/7 to guide you through the steps to mitigate any security incidents and restore operations as quickly as possible.</p>
 ---

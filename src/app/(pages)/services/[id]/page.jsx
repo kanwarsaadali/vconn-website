@@ -1,4 +1,3 @@
-
 import React, { Suspense } from "react";
 import dynamic from "next/dynamic";
 
@@ -23,6 +22,7 @@ export async function generateMetadata({ params }) {
 
 async function ServiceDetail( { params } ) {
   const postData = await getSingleServiceData(params);
+  console.log(postData)
 
   return (
     <>
@@ -33,7 +33,7 @@ async function ServiceDetail( { params } ) {
         <div className="container mil-p-120-60">
             <div className="mil-background-grid mil-softened"></div>
             <div className="row justify-content-between">
-                <div className="col-lg-7">
+                <div  className="col-lg-7">
                     {postData.description != undefined &&
                     <>
                         {postData.description.map((item, key) => (
@@ -72,7 +72,7 @@ async function ServiceDetail( { params } ) {
                 <div className="col-lg-5">
                     <div className="mil-sidebar-frame mil-mb-60">
                         {postData.sidebar.title != undefined &&
-                        <h2 className="mil-upper mil-up mil-mb-60">{postData.sidebar.title}</h2>
+                        <h2  className="mil-upper mil-up mil-mb-60">{postData.sidebar.title}</h2>
                         }
 
                         {postData.sidebar.items.map((item, key) => (
