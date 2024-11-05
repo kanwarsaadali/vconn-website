@@ -1,7 +1,7 @@
 ---
 #preview
 title: Cybersecurity & Compliance
-image: /img/covers/2.jpg
+image: /img/covers/1.jpg
 category: Architecture
 category_slug: architecture
 date: may 24 2023

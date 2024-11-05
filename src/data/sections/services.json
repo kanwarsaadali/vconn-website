@@ -22,6 +22,14 @@
             "title": "Secure Support Solutions",
             "text": "Cybersecurity, compliance, and managed IT services to protect and streamline your operations.",
             "link": "/services/service-3"
+        },
+        {
+            "icon": "/img/icons/23.png",
+            "num": "03.",
+            "title": "Secure Support Solutions",
+            "text": "Cybersecurity, compliance, and managed IT services to protect and streamline your operations.",
+            "link": "/services/service-3"
         }
+        
     ]
 }

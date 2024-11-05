@@ -1,16 +1,16 @@
 {
-    "bg_image": "/img/photo/1.jpg",
-    "title": "Secure, Scalable<br/><span class=\"mil-accent\">and</span><br/>Future-Ready IT Solutions",
+    "bg_image": "/img/photo/2.mp4",
+    "title": "we<br/><span class=\"mil-accent\">connet</span><br/>business",
     "subtitle": "",
     "button": {
-        "link": "/projects",
-        "label": "View Projects"
+        "link": "/contact",
+        "label": "lets connect"
     },
     "numbers": [
         {
-            "value": "346",
+            "value": "5",
             "afterValue": "+",
-            "label": "Succeeded <br/>Projects"
+            "label": "Continents <br/>Footprints"
         },
         {
             "value": "24",
@@ -18,14 +18,22 @@
             "label": "Working <br/>Hours"
         },
         {
-            "value": "10",
+            "value": "25",
             "afterValue": "+",
             "label": "Years <br/>Experience"
         },
         {
-            "value": "99",
+            "value": "2",
             "afterValue": "+",
-            "label": "Billion <br/>Invested"
+            "label": "billion Cost <br/>Impact"
+        },{
+            "value": "5",
+            "afterValue": "+",
+            "label": "Continents <br/>Footprints"
+        },{
+            "value": "5",
+            "afterValue": "+",
+            "label": "Continents <br/>Footprints"
         }
     ]
 }

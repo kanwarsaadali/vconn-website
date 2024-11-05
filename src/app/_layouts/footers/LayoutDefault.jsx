@@ -11,7 +11,7 @@ const DefaultFooter = () => {
     <>
     {/* footer */}
     <footer className="mil-relative">
-        <img src="/img/photo/4.jpg" className="mil-bg-img mil-parallax" alt="image" style={{"objectPosition": "top"}} data-value-1="-25%" data-value-2="23%" />
+        <img src="/img/photo/1.jpg" className="mil-bg-img mil-parallax" alt="image" style={{"objectPosition": "top"}} data-value-1="-25%" data-value-2="23%" />
 
         <div className="mil-overlay" />
         <div className="container mil-p-120-90">
@@ -70,8 +70,8 @@ b
                     ))}
                 </ul>
                 <ul className="mil-light-soft mil-mb-15">
-                    <li><a href="#.">Our App</a></li>
-                    <li><a href="#.">Sitemap</a></li>
+                    {/* <li><a href="#.">Our App</a></li>
+                    <li><a href="#.">Sitemap</a></li> */}
                 </ul>
             </div>
 

@@ -36,7 +36,7 @@ async function Home1() {
       <PartnersSlider />
       <AboutSection />
       <IdeasSection />
-      <ServicesSection />
+      {/* <ServicesSection /> */}
       <AdvantagesSection />
       <Suspense fallback={<div>Loading...</div>}>
         <LatestProjectsSection projects={projects} />

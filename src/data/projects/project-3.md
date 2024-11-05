@@ -1,7 +1,7 @@
 ---
 #preview
 title: Managed IT Services
-image: /img/covers/3.jpg
+image: /img/covers/4.jpg
 category: Architecture
 category_slug: architecture
 date: may 24 2023

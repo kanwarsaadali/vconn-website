@@ -36,7 +36,7 @@
                 ]
             },
             {
-                "label": "Blog",
+                "label": "resources",
                 "link": "/blog",
                 "children": [
 
@@ -80,7 +80,7 @@
             "image": "/img/logo/logo-light.png",
             "alt": "Logo"
         },
-        "copy": "© 2023 Ruizarch. All rights reserved.",
+        "copy": "© 2024 Vconn. All rights reserved.",
         "menu": [
             {
                 "label": "About",
@@ -118,7 +118,7 @@
             "title": "Instagram"
         },
         {
-            "link": "https://youtube.com",
+            "link": "https://linkdin.com",
             "title": "Youtube"
         }
     ],
