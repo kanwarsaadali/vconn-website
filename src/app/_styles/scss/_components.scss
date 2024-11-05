@@ -711,7 +711,7 @@ portfolio
     }
 
     &.mil-long-item {
-        padding-bottom: calc(200% + 30px);
+        padding-bottom: calc(114% + 30px);
 
         @media screen and (max-width: 768px) {
             padding-bottom: 100%;
@@ -731,7 +731,7 @@ portfolio
         align-items: center;
         text-align: center;
         padding: 60px;
-        background-color: $accent;
+        background-color: $serviceColor;
         transform: translateY(30px) scale(.9);
         opacity: 0;
         transition: $t-md;

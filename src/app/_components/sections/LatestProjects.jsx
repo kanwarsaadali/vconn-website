@@ -33,7 +33,7 @@ const LatestProjectsSection = ( { projects } ) => {
                         {projectRows.map((row, row_key) => (
                         <div className="col-md-6 col-lg-3" key={`projects-row-${row_key}`}>
                             {row.map((item, key) => (
-                            <Link href={`/projects/${item.id}`} key={`projects-item-${key}`} className={row.length == 2 ? "mil-portfolio-item mil-square-item mil-up mil-mb-30" : "mil-portfolio-item mil-long-item mil-up mil-mb-30"}>
+                            <Link href={`/projects/${item.id}`} key={`projects-item-${key}`} className={row.length == null ? "mil-portfolio-item mil-square-item mil-up mil-mb-30" : "mil-portfolio-item mil-long-item mil-up mil-mb-30"}>
                                 <img src={item.image} alt={item.title} />
                                 <div className="mil-project-descr">
                                     <h4 className="mil-upper mil-mb-20">{item.title}</h4>

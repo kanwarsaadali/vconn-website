@@ -358,7 +358,7 @@ const HeroOne = () => {
                 }
 
                 h1 {
-                    font-size: 2.5rem;
+                    font-size: ;
                 }
 
                 .mil-counter-frame {
