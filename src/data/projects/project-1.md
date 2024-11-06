@@ -1,6 +1,6 @@
 ---
 #preview
-title: Web & Application Hosting
+title: Web & Application Hosting 
 image: /img/covers/1.png
 category: Architecture
 category_slug: architecture
