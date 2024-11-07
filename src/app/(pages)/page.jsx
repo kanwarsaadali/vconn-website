@@ -37,10 +37,11 @@ async function Home1() {
       <AboutSection />
       <IdeasSection />
       {/* <ServicesSection /> */}
-      <AdvantagesSection />
+      {/* <AdvantagesSection /> */}
       <Suspense fallback={<div>Loading...</div>}>
         <LatestProjectsSection projects={projects} />
       </Suspense>
+      <AdvantagesSection />
       <HowWeWorkSection />
       {/* <Suspense fallback={<div>Loading...</div>}>
         <LatestPostsSection posts={posts} />

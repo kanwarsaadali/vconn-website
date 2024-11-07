@@ -1,8 +1,9 @@
 ---
 #preview
-title: Web & Application Hosting 
-describion: hello 
-image: /img/covers/1.png
+title: Cybersecurity Solutions
+describion: Vulnerability assessments, penetration testing, incident response planning, and threat monitoring
+image: /img/covers/1.jpg
+image1: /img/covers/3.png
 category: Architecture
 category_slug: architecture
 date: may 24 2023

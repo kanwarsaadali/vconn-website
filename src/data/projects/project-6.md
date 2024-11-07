@@ -1,7 +1,8 @@
 ---
 #preview
-title: Infrastructure Solutions
-image: /img/covers/6.jpg
+title: Cloud Solutions
+image: /img/covers/1.png
+describion: Cloud migration, infrastructure design, and DevOps/DevSecOps integration.
 category: Interior
 category_slug: interior
 date: may 24 2023

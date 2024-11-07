@@ -6,7 +6,7 @@ const AboutThreeSection = () => {
         <>
             {/* about three */}
             <section>
-                <div className="container mil-p-0-30">
+                <div className="container-fluid p-0 m-0 mil-p-0-30">
                     <div className="mil-background-grid mil-softened"></div>
                     <div className="row justify-content-between align-items-center flex-sm-row-reverse">
                         <div className="col-lg-5">

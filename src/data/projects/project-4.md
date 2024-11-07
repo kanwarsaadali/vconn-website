@@ -1,7 +1,8 @@
 ---
 #preview
-title: Strategic IT Consulting & DevOps Integration
-image: /img/covers/4.jpg
+title: Managed Security Services
+image: /img/covers/5.jpg
+describion: 24/7 monitoring, firewall/IDS management, and rapid threat response.
 category: Decor
 category_slug: decor
 date: may 24 2023
@@ -11,7 +12,7 @@ orientation: vertical
 intro:
   subtitle: "Modern concept"
   title: "Cascade of Lava <br/><span class=\"mil-accent\">Decor</span>"
-  bgImage: "/img/covers/4.jpg"
+  bgImage: "/img/covers/3.jpeg"
 
 description:
     heading:

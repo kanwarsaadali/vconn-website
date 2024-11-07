@@ -1,7 +1,8 @@
 ---
 #preview
-title: Managed IT Services
-image: /img/covers/4.jpg
+title: Incident Response & Management
+image: /img/covers/2.jpg
+describion: Incident planning, forensic investigation, and threat monitoring.
 category: Architecture
 category_slug: architecture
 date: may 24 2023

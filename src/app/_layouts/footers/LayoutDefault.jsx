@@ -55,7 +55,7 @@ b
                 </div>
                 <div className="col-lg-4">
                     <Link href="/" className="mil-footer-logo mil-up mil-mb-30">
-                        <img src={AppData.footer.logo.image} alt={AppData.footer.logo.alt} style={{"width": "130px"}} />
+                        <img src={AppData.footer.logo.image} alt={AppData.footer.logo.alt} style={{"width": "180px"}} />
                     </Link>
                 </div>
             </div>

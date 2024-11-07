@@ -5,12 +5,12 @@ const IdeasSection = () => {
     return (
         <>
             {/* ideas */}
-            <section>
+            <section  style={{background:"#F8F8F8"}}>
                 <div className="container mil-p-0-90">
                     <div className="mil-background-grid mil-softened" />
 
                     <div className="row justify-content-between">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 d-flex flex-column justify-content-center">
 
                             <div>
                                 <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.subtitle}} />

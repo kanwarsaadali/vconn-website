@@ -12,7 +12,7 @@ const CompanySlider = () => {
     <>
     {/* company two slider */}
     <section>
-        <div className="container mil-p-0-30">
+        <div className="container-fluid p-0 m-0 mil-p-0-30">
             <div className="mil-background-grid mil-softened" />
 
             <div className="row justify-content-between align-items-center flex-sm-row-reverse">
