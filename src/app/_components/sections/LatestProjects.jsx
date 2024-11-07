@@ -30,7 +30,7 @@ const LatestProjectsSection = ( { projects } ) => {
             <section className='py-5' style={{background:"#F8F8F8"}}>
                 <div className="container-fluid py-5">
                     <div className="d-flex justify-content-center">
-                    <h1 className="text-center py-3">dded</h1>
+                    <h1 className="text-center py-3">WHAT WE DO</h1>
 
                     </div>
                     <div className="row">
@@ -51,7 +51,7 @@ const LatestProjectsSection = ( { projects } ) => {
                                     <h5 className=" mil-upper mil-mb-20">{item.describion}</h5>
                                     <div className="mil-divider-sm mil-mb-20">{item.title}</div>
                                     <p>{item.short}</p>
-                                    {/* <img src={item.image1}/> */}
+                                    <img src={item.image1}/>
                                 </div>
                             </Link>
                             ))}
