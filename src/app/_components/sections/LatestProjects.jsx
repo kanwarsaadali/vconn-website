@@ -34,18 +34,20 @@ const LatestProjectsSection = ( { projects } ) => {
                         <div className="col-md-6 col-lg-3" key={`projects-row-${row_key}`}>
                             {row.map((item, key) => (
                             <Link href={`/projects/${item.id}`} key={`projects-item-${key}`} className={row.length == null ? "mil-portfolio-item mil-square-item mil-up mil-mb-30" : "mil-portfolio-item mil-long-item mil-up mil-mb-30"}>
-                                <h4 className="text-center">{item.title}</h4>
-                               <h5 className="text-center">{item.title}</h5> 
+                                {/* <h4 className="text-center">{item.title}</h4> */}
+                               {/* <h5 className="text-center">{item.title}</h5>  */}
                                 {/* <h5 className="text-center">{item.describion}</h5>  */}
-                                <h4 className="text-center title-text">{item.title}</h4>
+                                {/* <h4 className="text-center title-text">{item.title}</h4> */}
 {/* <h5 className="text-center description-text">{item.description}</h5> */}
                                 {/* <h3 className="text-center">kanwar</h3> */}
                                 <img src={item.image} alt={item.title} />
 
                                 <div className="mil-project-descr">
-                                    {/* <h4 className="mil-upper mil-mb-20">{item.title}</h4> */}
-                                    <div className="mil-divider-sm mil-mb-20"></div>
+                                    <h4 className="mil-upper mil-mb-20">{item.title}</h4>
+                                    <h6 className="mil-upper mil-mb-20">{item.title}</h6>
+                                    <div className="mil-divider-sm mil-mb-20">{item.title}</div>
                                     <p>{item.short}</p>
+                                    {/* <img src={item.image} alt={item.title} /> */}
                                 </div>
                             </Link>
                             ))}
