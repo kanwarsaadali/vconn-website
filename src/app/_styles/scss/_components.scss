@@ -814,9 +814,39 @@ portfolio
     position: relative;
     overflow: hidden;
 
+    & h4{
+        position: absolute;
+        top: 63px;
+        left: 20px;
+        z-index: 9999 !important;
+        color: white;
+    }
+
+    & h5{
+        position: absolute;
+        top: 160px;
+        left: 20px;
+        z-index: 9999 !important;
+        color: white;
+    }
+    & h3{
+       display: none ;
+    }
+    &:hover {
+      
+        & h3{
+            display: block;
+            position: absolute;
+            top: 270px;
+            left: 20px;
+            z-index: 9999 !important;
+            color: white;
+        }
+    }
+
     & img {
         position: absolute;
-        top: 0;
+        top: 0px;
         left: 0;
         width: 100%;
         height: 100%;
@@ -832,6 +862,7 @@ portfolio
 
     &.mil-long-item {
         padding-bottom: calc(114% + 30px);
+        border: 1px solid black ;
 
         @media screen and (max-width: 768px) {
             padding-bottom: 100%;
@@ -839,19 +870,24 @@ portfolio
     }
 
     & .mil-project-descr {
-        margin: 30px;
+        margin: 0px;
+        // margin: 30px;
         position: absolute;
-        top: 0;
+        // border: 1px solid;
+        top: 0px ;
         left: 0;
-        width: calc(100% - 60px);
-        height: calc(100% - 60px);
+        width: 100%;
+        height: 100%;
+        // width: calc(100% - 60px);
+        // height: calc(100% - 60px);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         padding: 60px;
-        background-color: $serviceColor;
+        // background-color: $serviceColor;
+        background-color: black;
         transform: translateY(30px) scale(0.9);
         opacity: 0;
         transition: opacity 1s cubic-bezier(0.4, 0.0, 0.2, 1), transform 1s cubic-bezier(0.4, 0.0, 0.2, 1); // Balanced duration for fade-in and slide
@@ -866,6 +902,7 @@ portfolio
             opacity: 1;
             transform: translateY(0px); // Smooth fade-in and slide
         }
+    
     }
 }
 
