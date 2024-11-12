@@ -2,6 +2,7 @@
 #preview
 title: Cloud Solutions
 image: /img/covers/1.png
+image1: /img/covers/2.png
 describion: Cloud migration, infrastructure design, and DevOps/DevSecOps integration.
 category: Interior
 category_slug: interior

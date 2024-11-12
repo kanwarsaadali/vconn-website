@@ -43,13 +43,13 @@ background grid
     display: flex;
     justify-content: center;
     opacity: .3;
-    border-left: solid 1px #545454;
-    border-right: solid 1px #545454;
+    // border-left: solid 1px #545454;
+    // border-right: solid 1px #545454;
 
     &:before {
         content: '';
-        border-left: solid 1px #545454;
-        border-right: solid 1px #545454;
+        // border-left: solid 1px #545454;
+        // border-right: solid 1px #545454;
         height: 100%;
         width: 34.3%;
     }
@@ -62,13 +62,13 @@ background grid
         opacity: .05;
     }
 
-    @media screen and (max-width: 768px) {
-        &:before {
-            border: none;
-            width: 1px;
-            background-color: #545454;
-        }
-    }
+    // @media screen and (max-width: 768px) {
+    //     &:before {
+    //         border: none;
+    //         width: 1px;
+    //         background-color: #545454;
+    //     }
+    // }
 }
 
 /* -------------------------------------------
@@ -310,8 +310,8 @@ counters
 ------------------------------------------- */
 .mil-counter-frame {
     width: 100%;
-    border: 5px solid $dt-10;
-    border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 5;
+    // border: 5px solid $dt-10;
+    // border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 5;
     padding: 15px;
 
     & p {
@@ -325,8 +325,8 @@ counters
     }
 
     &.mil-light {
-        border: 5px solid $lt-20;
-        border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $lt-20 1px, $lt-20 3px) 5;
+        // border: 5px solid $lt-20;
+        // border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $lt-20 1px, $lt-20 3px) 5;
     }
 }
 
@@ -809,7 +809,55 @@ portfolio
 //     }
 // }
 
+.mil-portfolio-item .mil-link {
+    display: none; /* Initially hide the span */
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 9999;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.mil-portfolio-item:hover .mil-link {
+    display: inline-block; /* Make it visible on hover */
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .mil-portfolio-item {
+
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+    & .mil-hover-expand {
+        display: none;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+
+    &:hover .mil-hover-expand {
+        display: inline-block;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
 
 
     
@@ -858,7 +906,7 @@ portfolio
         }
     }
 
-    & img {
+    & .img1 {
         position: absolute;
         top: 0px;
         left: 0;
@@ -908,7 +956,7 @@ portfolio
     }
 
     &:hover {
-        & img {
+        & .img1 {
             transform: scale(1); // Smooth scale effect on hover
         }
 

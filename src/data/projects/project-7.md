@@ -1,15 +1,19 @@
 ---
 #preview
-title: Confidential Technology
-image: /img/covers/7.jpg
+title: Cloud Solutions
+image: /img/covers/1.png
+image1: /img/covers/2.png
+describion: Cloud migration, infrastructure design, and DevOps/DevSecOps integration.
 category: Interior
 category_slug: interior
+date: may 24 2023
+orientation: vertical
 
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Technology Company <br/><span class=\"mil-accent\">Construction</span>"
-  bgImage: "/img/covers/7.jpg"
+  title: Tony's Chocolonely <br/><span class=\"mil-accent\">Factory</span>"
+  bgImage: "/img/covers/6.jpg"
 
 description:
     heading:
@@ -43,7 +47,7 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/4.jpg
+  - image: /img/covers/3.jpg
     alt: image
 
   - image: /img/covers/1.jpg

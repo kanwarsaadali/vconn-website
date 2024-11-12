@@ -2,8 +2,8 @@
 #preview
 title: Cybersecurity Solutions
 describion: Vulnerability assessments, penetration testing, incident response planning, and threat monitoring
-image: /img/covers/1.jpg
-image1: /img/covers/3.png
+image: /img/covers/3.png
+image1: /img/covers/4.png
 category: Architecture
 category_slug: architecture
 date: may 24 2023
