@@ -1,7 +1,7 @@
 ---
 #preview
-title: Incident Response & Management
-image: /img/covers/5.gif
+title: Information Security
+image: /img/covers/3.png
 image1: /img/covers/7.png
 describion: Incident planning, forensic investigation, and threat monitoring.
 category: Architecture

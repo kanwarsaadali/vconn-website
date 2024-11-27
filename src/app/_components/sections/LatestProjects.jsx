@@ -28,42 +28,42 @@ const LatestProjectsSection = ({ projects }) => {
 
     return (
         <>
-            {/* portfolio */}
-            <section className='py-5' style={{ background: "#F8F8F8" }}>
+            {/* portfolio style={{ background: "#F8F8F8" }} */}
+            <section className='py-5' >
                 <div className="container-fluid py-5">
                     <div className="d-flex justify-content-center">
                     <div className="mil-center mil-mb-90">
-                            <span className="mil-suptitle mil-upper mil-up mil-mb-30"  >jdjsds</span>
-                            <h2 className="mil-upper mil-up mil-mb-30">sdssss</h2>
-                            <p className="mil-up">asas</p>
+                            <span className="mil-suptitle mil-upper mil-up mil-mb-30" style={{ color: "black" }} >our Services</span>
+                            <h2 className="mil-upper mil-up mil-mb-30" style={{color: "black"}}>what we do</h2>
+                            {/* <p className="mil-up">asas</p> */}
                         </div>
                         {/* {console.log("projects", projects)} */}
                     </div>
                     <div className="row">
                         {projects.map((item, item_key) => (
-                            <div className="col-md-6 col-lg-3" key={`projects-row-${item_key}`}>
+                            <div className="col-md-6 col-lg-3 px-4" key={`projects-row-${item_key}`}>
                                 <Link href={`/projects/${item.id}`} key={`projects-item-${item_key}`} className={item == null ? "mil-portfolio-item mil-square-item mil-up mil-mb-30" : "mil-portfolio-item mil-long-item mil-up mil-mb-30"}>
                                     <h4 className="text-center withoutHover">{item.title}</h4>
-                                    
+                                    <h5 className=" mil-upper mil-mb-20">{item.describion}</h5>                                   
                                     {/* <h5 className="text-center">{item.title}</h5>  */}
                                     {/* <h5 className="text-center withoutHover">{item.describion}</h5>  */}
                                     {/* <h4 className="text-center title-text">{item.title}</h4> */}
                                     {/* <h5 className="text-center description-text">{item.description}</h5> */}
                                     {/* <h3 className="text-center">kanwar</h3> */}
                                     <img className="img1" src={item.image} alt={item.title} />
-                              
+                                    {/* <img className="img1" src={item.image} alt={item.title} /> */}
 
-                                    <div className="mil-project-descr">
-                                        <h4 className="text-center">{item.title}</h4>
-                                        <h5 className=" mil-upper mil-mb-20">{item.describion}</h5>
-                                        <div className="mil-divider-sm mil-mb-20">{item.title}</div>
-                                        <div className="mil-divider-sm mil-mb-20">{item.title}</div>
+                                    <div className="mil-project-descr p-0 m-0">
+                                        {/* <h4 className="text-center">{item.title}</h4> */}
+                                        {/* <h5 className=" mil-upper mil-mb-20">{item.describion}</h5> */}
+                                        {/* <div className="mil-divider-sm mil-mb-20">{item.title}</div> */}
+                                        {/* <div className="mil-divider-sm mil-mb-20">{item.title}</div> */}
                                         <p>{item.short}</p>
-                                        <span>
-                                        <img className="img2" src={item.image1} />
-                                        <span className="mil-link mil-light mil-upper ">
+                                        <span style={{width:"100%"}} className="w-100">
+                                        <img style={{width:"100%"}} className="img2 w-100" src={item.image1} />
+                                        {/* <span className="mil-link mil-light mil-upper ">
                                         Expand <span className="mil-arrow"><img src="img/icons/1.svg" className="img3"  alt="arrow" /></span>
-                                    </span>
+                                    </span> */}
                                         </span>
                                        
                                     </div>

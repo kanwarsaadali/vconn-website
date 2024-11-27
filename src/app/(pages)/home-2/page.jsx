@@ -10,6 +10,7 @@ import AwardsSection from "@components/sections/Awards";
 
 const HeroOneSlider = dynamic( () => import("@components/sliders/HeroOne"), { ssr: false } );
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
+const ClientSlider = dynamic( () => import("@components/sliders/Client"), { ssr: false } );
 const ProcessSlider = dynamic( () => import("@components/sliders/Process"), { ssr: false } );
 
 export const metadata = {
@@ -23,6 +24,7 @@ const Home2 = () => {
   return (
     <>
       <HeroOneSlider />
+      <ClientSlider bgStyle={"accent"} />
       <PartnersSlider bgStyle={"accent"} />
       <AboutTwoSection />
       <ProcessSlider bgStyle={"soft"} />

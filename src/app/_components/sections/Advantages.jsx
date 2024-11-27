@@ -10,6 +10,7 @@ const AdvantagesSection = () => {
 
                 <div className="row">
                     <div className="col-12">
+                        
 
                         <div className="mil-center mil-mb-90">
                             <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.subtitle}} />

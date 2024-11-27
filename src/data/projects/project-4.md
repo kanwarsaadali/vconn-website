@@ -1,7 +1,8 @@
 ---
 #preview
-title: Managed Security Services
-image: /img/covers/5.jpg
+title: Managed Services
+image: /img/covers/4.png
+image1: /img/covers/8.png
 describion: 24/7 monitoring, firewall/IDS management, and rapid threat response.
 category: Decor
 category_slug: decor

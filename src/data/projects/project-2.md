@@ -1,7 +1,8 @@
 ---
 #preview
-title: Cybersecurity & Compliance
-image: /img/covers/1.png
+title: DevSecOps Strategies
+image: /img/covers/2.png
+image1: /img/covers/6.png
 category: Architecture
 category_slug: architecture
 date: may 24 2023

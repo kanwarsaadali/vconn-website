@@ -42,7 +42,7 @@ body {
 
 .mil-relative {
     position: relative;
-    background-color: rgb(248,248,248);
+    // background-color: rgb(248,248,248);
 }
 
 .mil-o-hidden {
@@ -296,13 +296,16 @@ a {
 
 .mil-accent {
     color: $accent;
+    font-weight: bolder;
 }
 
 .mil-light {
     color: $light !important;
+    font-weight: bolder;
 
     & a {
         color: $light !important;
+    
     }
 }
 
@@ -369,7 +372,7 @@ suptitle
         left: 0;
         height: 5px;
         width: 60px;
-        background-color: transparent;
+        background-color: rgb(188, 255, 0);
         border: 3px solid $dt-10;
         border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 3;
         transition: $t-md;
@@ -476,6 +479,7 @@ button
 
 ------------------------------------------- */
 .mil-button {
+    border-radius: 50px !important;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
@@ -721,6 +725,7 @@ spaces
 
 .mil-mb-10 {
     margin-bottom: 10px;
+    font-size: 25px;
 }
 
 .mil-mb-15 {
@@ -732,7 +737,7 @@ spaces
 }
 
 .mil-mb-30 {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .mil-mb-40 {
@@ -769,8 +774,8 @@ spaces
 }
 
 .mil-p-120-120 {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    // padding-top: 120px;
+    // padding-bottom: 120px;
 
     @media screen and (max-width: 992px) {
         padding-top: 90px;
@@ -815,8 +820,8 @@ spaces
 }
 
 .mil-p-120-60 {
-    padding-top: 120px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    // padding-bottom: 60px;    
 
     @media screen and (max-width: 992px) {
         padding-top: 90px;
@@ -854,6 +859,7 @@ spaces
 .mil-p-0-30 {
     padding-bottom: 30px;
     background-color: #F0F0F0;
+    border-radius: 10px;
 
     @media screen and (max-width: 992px) {
         padding-bottom: 0;

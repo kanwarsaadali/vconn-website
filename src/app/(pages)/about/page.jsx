@@ -10,6 +10,7 @@ import ContactInfoSection from "@components/sections/ContactInfo";
 import ServicesTwoSection from "@components/sections/ServicesTwo";
 
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
+const ClientSlider = dynamic( () => import("@components/sliders/Client"), { ssr: false } );
 const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
 const CompanySlider = dynamic( () => import("@components/sliders/Company"), { ssr: false } );
 const ProcessSlider = dynamic( () => import("@components/sliders/Process"), { ssr: false } );
@@ -31,6 +32,7 @@ const About = () => {
       <CompanyTwoSlider />
       <ProcessSlider paddingTop={"0"} />
       <CompanySlider />
+      <ClientSlider/>
       <PartnersSlider bgStyle={"soft"} />
       <AwardsSection />
       <TestimonialSlider showPartners={0} />

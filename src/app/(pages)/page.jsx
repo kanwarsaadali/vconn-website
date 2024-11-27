@@ -17,6 +17,8 @@ import LatestPostsSection from "@components/sections/LatestPosts";
 import CoresSection from "@components/sections/Cores";
 
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
+const ClientSlider = dynamic( () => import("@components/sliders/client"), { ssr: false } );
+
 
 export const metadata = {
   title: {
@@ -33,20 +35,28 @@ async function Home1() {
   return (
     <>
       <HeroOneSection />
-      <PartnersSlider />
+      {/* <ClientSlider/>
+      <PartnersSlider /> */}
+      {/* <PartnersSlider /> */}
       <AboutSection />
-      <IdeasSection />
-      {/* <ServicesSection /> */}
-      {/* <AdvantagesSection /> */}
       <Suspense fallback={<div>Loading...</div>}>
         <LatestProjectsSection projects={projects} />
       </Suspense>
+      <PartnersSlider />
+      <IdeasSection />
+
+      {/* <ServicesSection /> */}
+      {/* <AdvantagesSection /> */}
+      <ClientSlider/>
       <AdvantagesSection />
+      {/* <ClientSlider/> */}
+      {/* <PartnersSlider /> */}
       <HowWeWorkSection />
+      {/* <PartnersSlider /> */}
       {/* <Suspense fallback={<div>Loading...</div>}>
         <LatestPostsSection posts={posts} />
       </Suspense> */}
-      <PartnersSlider />
+      {/* <PartnersSlider /> */}
       {/* <CoresSection /> */}
     </>
   );
