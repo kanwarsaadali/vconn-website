@@ -86,7 +86,7 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import Data from "@data/sliders/partners";
 
-const PartnersSlider = ({ bgStyle }) => {
+const ClientSlider = ({ bgStyle }) => {
   return (
     <>
       {/* Partners Section */}
@@ -202,4 +202,4 @@ const PartnersSlider = ({ bgStyle }) => {
   );
 };
 
-export default PartnersSlider;
+export default ClientSlider;
