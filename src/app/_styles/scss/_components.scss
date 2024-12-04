@@ -100,6 +100,8 @@ banner
     overflow: hidden;
     height: 100vh;
 
+
+
     & .mil-banner-slider {
         width: 100%;
         height: 100%;
@@ -119,6 +121,9 @@ banner
         padding: 0 0 30px;
         width: 100%;
         position: relative;
+        .bussinessText{
+            color: $accent !important;
+        }
     }
 
     & .mil-banner-slider-2 {
@@ -871,6 +876,7 @@ portfolio
     
     & .withoutHover{
         display: block ;
+        margin-top: -50px;
      }
      &:hover {
        
@@ -889,7 +895,7 @@ portfolio
         top: 63px;
         left: 20px;
         z-index: 9999 !important;
-        color: white;
+        // color: white;
     }
 
     & h5{
@@ -2898,3 +2904,22 @@ load more
         z-index: 0;
     }
 }
+
+#projectSection{
+
+    h5{
+        font-size: $h5 !important;
+        font-family: $font-3 !important;
+
+        @media screen and (max-width: 992px) {  ////992 choti
+            font-size: $h6 + 6px;
+        }
+    
+        @media screen and (max-width: 768px) { ///768 choti
+            font-size: $h6 + 3px;
+        }
+    }
+
+    
+}
+

@@ -1,6 +1,6 @@
 {
     "image": {
-        "url": "/img/photo/2.jpg",
+        "url": "/img/photo/vr1.png",
         "alt": "img"
     },
     "number": {
@@ -9,9 +9,10 @@
     },
     "title": "Transforming Digital Goals into Reality",
     "subtitle": "About",
-    "description": "At VCONN, we empower businesses with innovative IT solutions and robust cybersecurity measures, delivering a powerful suite of services that includes on-premise servers, scalable cloud solutions, advanced database management, dependable web hosting, and high-performance application hosting. Backed by a team of seasoned professionals, we provide cybersecurity solutions, strategic IT consulting, and comprehensive compliance support to help you confidently navigate today’s complex digital landscape.",
+    "description": "At VCONN, we transform businesses with innovative IT solutions and strong cybersecurity. Our services ranging from on-premise server management and scalable cloud solutions to advanced databases, reliable web hosting, and high-performance application hosting optimize security, performance, and growth.",
+    "description1": "Led by experienced professionals, we deliver cybersecurity strategies, strategic IT consulting, and seamless compliance support to drive your digital evolution and protect your future.",
     "button": {
         "link": "https://www.youtube.com/watch?v=HR4giV4oUjI",
-        "label": "Watch video"
+        "label": "See what we do"
     }
 }

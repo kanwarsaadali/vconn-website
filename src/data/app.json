@@ -29,20 +29,6 @@
                 ]
             },
             {
-                "label": "Projects",
-                "link": "/projects",
-                "children": [
-
-                ]
-            },
-            {
-                "label": "resources",
-                "link": "/blog",
-                "children": [
-
-                ]
-            },
-            {
                 "label": "Contact Us",
                 "link": "/contact",
                 "children": 0

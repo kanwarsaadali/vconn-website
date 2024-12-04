@@ -14,7 +14,7 @@ const AdvantagesSection = () => {
 
                         <div className="mil-center mil-mb-90">
                             <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
-                            <h2 className="mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
+                            {/* <h2 className="mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} /> */}
                             <p className="mil-up" dangerouslySetInnerHTML={{__html : Data.description}} />
                         </div>
 

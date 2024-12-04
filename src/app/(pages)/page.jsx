@@ -35,23 +35,24 @@ async function Home1() {
   return (
     <>
       <HeroOneSection />
+      {/* <ClientSlider/> */}
       {/* <ClientSlider/>
-      <PartnersSlider /> */}
-      {/* <PartnersSlider /> */}
+      // <PartnersSlider /> */}
+      <PartnersSlider />
       <AboutSection />
       <Suspense fallback={<div>Loading...</div>}>
         <LatestProjectsSection projects={projects} />
       </Suspense>
-      <PartnersSlider />
+      {/* <PartnersSlider /> */}
       <IdeasSection />
 
       {/* <ServicesSection /> */}
       {/* <AdvantagesSection /> */}
-      <ClientSlider/>
-      <AdvantagesSection />
+      {/* <ClientSlider/> */}
+      {/* <AdvantagesSection /> */}
       {/* <ClientSlider/> */}
       {/* <PartnersSlider /> */}
-      <HowWeWorkSection />
+      {/* <HowWeWorkSection /> */}
       {/* <PartnersSlider /> */}
       {/* <Suspense fallback={<div>Loading...</div>}>
         <LatestPostsSection posts={posts} />

@@ -13,7 +13,7 @@ const AboutSection = () => {
     return (
         <>
             {/* about */}
-            <section className='py-5' style={{background:"#F8F8F8"}}>
+            <section className='py-5' style={{background:"#F8F8F8", marginTop:"-60px" }}>
                 <div className="container  mil-p-0-30">
                     <div className="mil-background-grid mil-softened" />
 
@@ -22,8 +22,9 @@ const AboutSection = () => {
 
                             <div className="mil-mb-90">
                                 {/* <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.subtitle}} /> */}
-                                <h2 className="mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
+                                <h2 className="mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.title}}/>
                                 <p className="mil-up mil-mb-40" dangerouslySetInnerHTML={{__html : Data.description}} />
+                                <p className="mil-up mil-mb-40" dangerouslySetInnerHTML={{__html : Data.description1}} />
                                 <a onClick={() => setOpen(true)} className="mil-link mil-upper mil-up has-popup-video" style={{ "cursor" : "pointer" }}>
                                     {Data.button.label} 
                                     <span className="mil-arrow"><img src="/img/icons/2.svg" alt="arrow" /></span>
@@ -38,7 +39,7 @@ const AboutSection = () => {
                                     <img src={Data.image.url} alt={Data.image.alt} className="mil-scale" data-value-1="1" data-value-2="1.3" />
                                 </div>
                                 <div className="mil-about-counter">
-                                    <h1 className="mil-counter mil-right mil-mb-10" data-number={Data.number.value}>0</h1>
+                                    {/* <h1 className="mil-counter mil-right mil-mb-10" data-number={Data.number.value}>0</h1> */}
                                     <h5 className="mil-upper mil-right" dangerouslySetInnerHTML={{__html : Data.number.label}} />
                                 </div>
                             </div>

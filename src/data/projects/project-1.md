@@ -1,7 +1,8 @@
 ---
 #preview
-title: Cybersecurity Solutions
-describion: Vulnerability assessments, penetration testing, incident response planning, and threat monitoring
+title: CYBERSECURITY SOLUTIONS
+describion: "Cyber Shadows: The Hidden Threat to Your Business."
+describtion1: Cyber threats are no longer distant they’re in your network, evolving, adapting, and waiting. Ransomware, phishing, and data breaches are just the beginning. One vulnerability is all it takes to bring your operations to a halt.
 image: /img/covers/1.png
 image1: /img/covers/5.png
 category: Architecture

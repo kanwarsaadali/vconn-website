@@ -1,9 +1,10 @@
 ---
 #preview
-title: Managed Services
+title: MANAGED SERVICES
 image: /img/covers/4.png
 image1: /img/covers/8.png
-describion: 24/7 monitoring, firewall/IDS management, and rapid threat response.
+describion: "Taming the IT Beast: Mastering Complexity with Ease."
+describtion1: Growing businesses often face IT complexity that spirals out of control multiple platforms, endless updates, and constant firefighting. Complexity shouldn’t stifle innovation, but without expert management, it will.
 category: Decor
 category_slug: decor
 date: may 24 2023
