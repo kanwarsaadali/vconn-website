@@ -18,7 +18,7 @@ import CoresSection from "@components/sections/Cores";
 import ClientSlider from '@components/sliders/client';
 
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
-// const ClientSlider = dynamic( () => import("@components/sliders/client"), { ssr: false } );
+const ClientSlider = dynamic( () => import("@components/sliders/Client"), { ssr: false } );
 
 
 export const metadata = {
