@@ -15,9 +15,10 @@ import LatestProjectsSection from "@components/sections/LatestProjects";
 import HowWeWorkSection from "@components/sections/HowWeWork";
 import LatestPostsSection from "@components/sections/LatestPosts";
 import CoresSection from "@components/sections/Cores";
+import ClientSlider from '@components/sliders/client';
 
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
-const ClientSlider = dynamic( () => import("@components/sliders/client"), { ssr: false } );
+// const ClientSlider = dynamic( () => import("@components/sliders/client"), { ssr: false } );
 
 
 export const metadata = {
